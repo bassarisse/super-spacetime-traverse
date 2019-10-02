@@ -89,7 +89,7 @@ Material:
     - _GammaCorrection: 0.6
     - _Glossiness: 0.5
     - _Green: 0
-    - _Height: 791
+    - _Height: 576
     - _Light: 0
     - _LightOffset: 0
     - _Metallic: 0
@@ -99,7 +99,7 @@ Material:
     - _Red: 0
     - _SrcBlend: 1
     - _UVSec: 0
-    - _Width: 989
+    - _Width: 640
     - _ZWrite: 1
     - _Zoom: 1
     - _node_9283: -0.55

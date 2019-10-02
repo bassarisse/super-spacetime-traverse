@@ -274,7 +274,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267314823}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a76214c6ce26c47dcb48a4136cc0096c, type: 3}
   m_Name: 
@@ -546,7 +546,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -78, y: 2.666687}
+  m_AnchoredPosition: {x: -78, y: 2.75}
   m_SizeDelta: {x: 157, y: 20}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &501899361
@@ -5535,14 +5535,14 @@ RectTransform:
   m_GameObject: {fileID: 663769988}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2106090984}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 25.33, y: -9.299999}
+  m_AnchoredPosition: {x: 25.33, y: -4.64}
   m_SizeDelta: {x: 157, y: 20}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &663769990
@@ -5664,9 +5664,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.79
-  m_Text: 'Booster Available
-
-'
+  m_Text: READY
 --- !u!222 &663769998
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5726,9 +5724,9 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 95.04596
+  field of view: 83.97443
   orthographic: 1
-  orthographic size: 10.921875
+  orthographic size: 9
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -5773,9 +5771,9 @@ MonoBehaviour:
   fitType: 0
   targetPixelHeight: 144
   parallaxLayerCount: 10
-  cameraZoom: 5
+  cameraZoom: 4
   pixelatedPostProcessing: 1
-  heightError: 21
+  heightError: 0
   showGizmos: 1
   subpixelOffset: {x: 0, y: 0}
   pixelZoomMode: 1
@@ -10692,8 +10690,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orientation: 0
   limitScreenSize: 0
-  maxWidth: 874
-  maxHeight: 699
+  maxWidth: 640
+  maxHeight: 576
   aspectRatios: []
   useResolution: 0
   useDithering: 1
@@ -10875,7 +10873,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1612789448}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a76214c6ce26c47dcb48a4136cc0096c, type: 3}
   m_Name: 
@@ -15607,7 +15605,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1668084093}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a76214c6ce26c47dcb48a4136cc0096c, type: 3}
   m_Name: 
@@ -16160,7 +16158,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2071886704}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a76214c6ce26c47dcb48a4136cc0096c, type: 3}
   m_Name: 
@@ -16233,7 +16231,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -6.5200195, y: -11.809998}
+  m_AnchoredPosition: {x: -6.5, y: -11.75}
   m_SizeDelta: {x: 32, y: 32}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &2106090985
