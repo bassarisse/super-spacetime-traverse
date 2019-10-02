@@ -18,10 +18,12 @@ public class ShipBehavior : MonoBehaviour {
 
 	public UnityEvent OnHit;
 	public UnityEvent OnExplosion;
+	public UnityEvent OnMaxEnergy;
 	public UnityEvent OnDeath;
 
-	Rigidbody2D _body;
-	float _maxEnergy = 1f;
+	private Rigidbody2D _body;
+	private float _maxEnergy = 1f;
+    private bool isMaxEnergy = false;
 
 	void Awake () {
 
@@ -83,6 +85,12 @@ public class ShipBehavior : MonoBehaviour {
 		var oldEnergyMaxedOut = IsEnergyMaxedOut();
 		Energy = Mathf.Clamp(Energy + Time.deltaTime * EnergyChargeTimeFactor, 0, _maxEnergy);
 		var newEnergyMaxedOut = IsEnergyMaxedOut ();
+
+        if (newEnergyMaxedOut && !isMaxEnergy)
+        {
+            isMaxEnergy = true;
+            OnMaxEnergy.Invoke();
+        }
 
 		if (oldEnergyMaxedOut != newEnergyMaxedOut)
 			AudioHandler.Play ("charge1");
@@ -178,6 +186,8 @@ public class ShipBehavior : MonoBehaviour {
 			HitDanger (obj);
 
 		}
-	}
+
+        isMaxEnergy = false;
+    }
 
 }
